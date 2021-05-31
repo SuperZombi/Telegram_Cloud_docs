@@ -1,4 +1,4 @@
-var player1 = new Playerjs({id:"player1", file:"docs/Authorization_instructions.mp4"});
+var player1 = new Playerjs({id:"player1", file:"docs/Authorization.mp4"});
 var player2 = new Playerjs({id:"player2", file:"docs/Upload_your_files.mp4"});
 var player3 = new Playerjs({id:"player3", file:"docs/Работа с папками.mp4"});
 var player4 = new Playerjs({id:"player4", file:"docs/Переименование и перемещение.mp4"});
