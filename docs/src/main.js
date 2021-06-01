@@ -5,6 +5,12 @@ var player4 = new Playerjs({id:"player4", file:"docs/Работа с папка�
 var player5 = new Playerjs({id:"player5", file:"docs/Переименование и перемещение.mp4"});
 var player6 = new Playerjs({id:"player6", file:"docs/Скачивание_удаление.mp4"});
 
+function copy_link(){
+	setTimeout(function(){
+		navigator.clipboard.writeText(window.location.href)
+	}, 10)
+}
+
 // Canvas
 var c=document.getElementById("nightsky");
 var $k=c.getContext("2d");
