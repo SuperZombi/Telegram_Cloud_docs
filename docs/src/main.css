@@ -189,4 +189,5 @@ input:checked + .slider:before {
 	height: 288px;
 	width: 512px;
 	float: right;
+	margin-bottom: 50px;
 }
