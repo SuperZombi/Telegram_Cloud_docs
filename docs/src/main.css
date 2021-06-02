@@ -81,8 +81,8 @@ p{
 }
 #up{
 	position: fixed;
-	height: 55px;
-	width: 55px;
+	max-width: 70px;
+	width: 15%;
 	right: 15px;
 	bottom: 25px;
 	cursor: pointer;
@@ -138,6 +138,7 @@ svg path{
   height: 0;
 }
 .slider {
+	transform: scale(1.15);
   position: absolute;
   cursor: pointer;
   top: 0;
