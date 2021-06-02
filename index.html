@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Telegram Cloud</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="docs/images/TelegramCloud.png" type="image/png">
 	<link rel="stylesheet" href="docs/src/main.css">
 	<script src="docs/src/playerjs.js" type="text/javascript"></script>
@@ -24,11 +25,9 @@
 	const darkThemeMq = window.matchMedia("(prefers-color-scheme: dark)");
 	if (darkThemeMq.matches) {
 	    setTheme('theme-dark');
-	    document.getElementById('slider').checked = false;
 	}
 	else {
 		setTheme('theme-light');
-	    document.getElementById('slider').checked = true;
 	}
 </script>
 </head>
@@ -157,6 +156,15 @@
 			
 		
 </div>
+
+<script>
+	if (darkThemeMq.matches) {
+	    document.getElementById('slider').checked = false;
+	}
+	else {
+	    document.getElementById('slider').checked = true;
+	}
+</script>
 <script src="docs/src/main_user.js" type="text/javascript"></script>
 </body>
 </html>
