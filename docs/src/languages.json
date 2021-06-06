@@ -30,7 +30,7 @@ LANGUAGES = {
 		"install":"Installation",
 		"auth":"Authorization",
 		"update":"Update installation",
-		"work":"Usage:",
+		"work":"App capabilities:",
 		"upload":"Uploading files",
 		"folders":"Working with folders",
 		"rename":"Renaming and moving",
