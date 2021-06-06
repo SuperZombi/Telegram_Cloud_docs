@@ -32,7 +32,7 @@ LANGUAGES = {
 		"update":"Update installation",
 		"work":"App capabilities:",
 		"upload":"Uploading files",
-		"folders":"Working with folders",
+		"folders":"Folders",
 		"rename":"Renaming and moving",
 		"download":"Download and delete",
 		"dark":"Dark theme and search"
