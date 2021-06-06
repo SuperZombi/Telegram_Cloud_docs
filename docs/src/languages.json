@@ -35,6 +35,6 @@ LANGUAGES = {
 		"folders":"Folders operations",
 		"rename":"Renaming and moving",
 		"download":"Downloading and deleting",
-		"dark":"Dark theme and search"
+		"dark":"Dark theme and searching"
 	}
 }
