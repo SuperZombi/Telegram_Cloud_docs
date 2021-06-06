@@ -29,7 +29,7 @@ LANGUAGES = {
 		"contens":"Contents:",
 		"install":"Installation",
 		"auth":"Authorization",
-		"update":"Installing the update",
+		"update":"Update installation",
 		"work":"Working with the application:",
 		"upload":"Uploading files",
 		"folders":"Working with folders",
